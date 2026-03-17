@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- SEO Optimization -->
+    <title>Contact Us | TechVibe.ai - Get in Touch with AI & Tech Experts</title>
+    <meta name="description" content="Contact TechVibe.ai for AI tool reviews, partnerships, or general inquiries. We respond within 24-48 hours.">
+    <link rel="canonical" href="https://techvibe.ai/contact">
+    <meta name="robots" content="index, follow">
+
+    <!-- Schema.org for Contact Page (Trust Signal) -->
+    <script type="application/ld+json">
+    {
+     "@context": "https://schema.org",
+     "@type": "ContactPage",
+     "name": "Contact TechVibe.ai",
+     "description": "The official contact page for TechVibe.ai. Get in touch for tech reviews, partnerships, and support.",
+     "url": "https://techvibe.ai/contact"
+    }
+    </script>
+
+    <!-- Organization & ContactPoint Schema (Advanced Trust Signal) -->
+    <script type="application/ld+json">
+    {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "TechVibe.ai",
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "contactType": "customer support",
+       "availableLanguage": ["English"]
+     }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-900 leading-relaxed">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50 h-16 flex items-center">
+        <div class="max-w-6xl mx-auto px-4 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black text-blue-600 italic">TechVibe<span class="text-slate-900">.ai</span></a>
+            <div class="flex items-center space-x-6">
+                <a href="index.html" class="text-sm font-bold text-slate-500 hover:text-blue-600 transition uppercase tracking-widest">Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main class="max-w-5xl mx-auto px-6 py-12 md:py-20">
+        
+        <!-- Breadcrumbs (SEO + UX) -->
+        <nav class="text-sm text-slate-500 mb-8 flex items-center space-x-2">
+            <a href="index.html" class="text-blue-600 hover:underline font-semibold">Home</a>
+            <span class="text-slate-300">/</span>
+            <span class="font-medium text-slate-400">Contact</span>
+        </nav>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <!-- Left Column: Contact Info -->
+            <div class="flex flex-col justify-center">
+                <h1 class="text-5xl font-black mb-8 leading-tight text-slate-900">Get in <span class="text-blue-600">Touch.</span></h1>
+                <p class="text-slate-600 text-lg mb-8 font-light leading-relaxed">
+                    Have a question, a suggestion, or a software tool you’d like us to review? Use the form to send us a direct message. Our team is ready to assist you.
+                </p>
+                
+                <div class="p-6 bg-blue-50 border border-blue-100 rounded-[2rem]">
+                    <h3 class="font-bold text-blue-800 mb-2">Why message us?</h3>
+                    <ul class="text-sm text-blue-700 space-y-2">
+                        <li>• Request a specialized AI tool review.</li>
+                        <li>• Discuss business and partnership opportunities.</li>
+                        <li>• Report technical issues or share feedback.</li>
+                    </ul>
+                </div>
+
+                <!-- Professional note for business inquiries -->
+                <p class="text-sm text-slate-400 mt-8 font-medium italic">
+                    For business kit requests or advertising inquiries, please specify "Partnership" in your message subject.
+                </p>
+            </div>
+
+            <!-- Right Column: Functional Contact Form -->
+            <div class="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-xl shadow-slate-200/50 border border-slate-100">
+                <!-- Formspree Integration with hidden optimization fields -->
+                <form action="https://formspree.io/f/xpqyybgg" method="POST" class="space-y-5">
+                    
+                    <!-- Hidden Fields for Formspree Optimization -->
+                    <input type="hidden" name="_subject" value="New Contact Form Submission - TechVibe.ai">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <!-- Anti-Spam Honeypot Field -->
+                    <input type="text" name="_gotcha" style="display:none">
+                    
+                    <div>
+                        <label class="block text-[10px] font-black uppercase text-slate-400 mb-2 tracking-[0.2em]">Full Name</label>
+                        <input type="text" name="name" required placeholder="John Doe" class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all placeholder:text-slate-300">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-black uppercase text-slate-400 mb-2 tracking-[0.2em]">Email Address</label>
+                        <input type="email" name="_replyto" required placeholder="name@company.com" class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all placeholder:text-slate-300">
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-black uppercase text-slate-400 mb-2 tracking-[0.2em]">Subject</label>
+                        <select name="subject" class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all">
+                            <option value="General">General Inquiry</option>
+                            <option value="Review">Software Review Request</option>
+                            <option value="Partnership">Partnership / Advertising</option>
+                            <option value="Support">Technical Support</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[10px] font-black uppercase text-slate-400 mb-2 tracking-[0.2em]">Your Message</label>
+                        <textarea name="message" rows="4" required placeholder="How can we help you?" class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500 transition-all placeholder:text-slate-300"></textarea>
+                    </div>
+                    
+                    <!-- Enhanced Submit Button -->
+                    <button type="submit" class="w-full bg-blue-600 text-white font-black py-5 rounded-2xl hover:bg-blue-700 transition transform hover:scale-[1.02] shadow-xl shadow-blue-200">
+                        Send Message Securely →
+                    </button>
+
+                    <!-- Trust and Privacy Notice -->
+                    <p class="text-[10px] text-slate-400 text-center mt-4 uppercase tracking-widest">
+                        We respect your privacy. No spam. Ever.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-slate-900 py-16 text-center text-white mt-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <span class="text-3xl font-black italic tracking-tighter mb-6 block">TechVibe<span class="text-blue-500">.ai</span></span>
+            <p class="text-[10px] uppercase tracking-[0.5em] text-slate-500 mb-4">Support Response Time: 24-48 Business Hours</p>
+            <p class="text-[10px] uppercase tracking-[0.3em] opacity-30">&copy; 2026 TechVibe.ai - Global Content Distribution</p>
+        </div>
+    </footer>
+
+</body>
+</html>
